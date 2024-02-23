@@ -2,6 +2,7 @@
     margin:0;
     padding: 0px 0px 0px 0px;
     padding-top: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav {
     width: 100%;
@@ -40,7 +41,7 @@ nav {
     }   
 
 .menu ul li a:hover{
-    background-image: linear-gradient(to right,orange);
+    background-image: linear-gradient(to right,rgb(12, 47, 112));
     color: black;
 }
 
@@ -82,11 +83,11 @@ a:hover{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .description{
-        padding-left: 30%;
+        padding-left: 30px;
         padding-right: 30px;
         text-align: center;
         font-size: 20px;
-        color: darkcyan;
+        color: black;
     }
 
 }
@@ -99,12 +100,13 @@ a:hover{
         font-size: 50px;
         text-align: center;
         color: skyblue;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .description{
+        padding-left: 30px;
+        padding-right: 30px;
         text-align: center;
         font-size: larger;
-        color: darkcyan;
+        color: black;
     }
 
 }
@@ -113,12 +115,19 @@ a:hover{
 .hotspots{
     width: 100%;
     overflow:visible;
+    .title{
+        font-size: 50px;
+        text-align: center;
+        color: skyblue;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
     .place{
         width: 100%;
         display: flex;
         padding: 30px;
         .inside{
             padding: 30px;
+            text-align: center;
         }
         img{
             width: 50%;
@@ -131,3 +140,6 @@ a:hover{
         width: 100px;
 }
 
+.visit{
+    background-color: skyblue;
+}
