@@ -41,7 +41,7 @@ nav {
     }   
 
 .menu ul li a:hover{
-    background-image: linear-gradient(to right,rgb(12, 47, 112));
+    background-image: linear-gradient(to right,rgb(21, 66, 199));
     color: black;
 }
 
