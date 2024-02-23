@@ -1,0 +1,15 @@
+
+
+
+
+.place{
+    width: 100%;
+    display: flex;
+}
+.place img{
+    
+    width: 50%;
+}
+.place .inside{
+    padding: 30px;
+}
